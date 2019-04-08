@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="answerLabel" destination="3p4-wk-sv6" id="fjr-HB-rd5"/>
+                <outlet property="scratchView" destination="74L-u4-7eX" id="a0s-11-nr1"/>
+                <outlet property="showButton" destination="u0y-ta-b5D" id="2Qp-05-gcV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="74L-u4-7eX">
+                    <rect key="frame" x="71" y="407" width="272" height="82"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn_scratch_normal.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZKl-Un-tmt">
+                            <rect key="frame" x="0.0" y="0.0" width="272" height="82"/>
+                        </imageView>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3p4-wk-sv6">
+                            <rect key="frame" x="0.0" y="0.0" width="272" height="82"/>
+                            <color key="backgroundColor" red="0.99607843139999996" green="0.76078431369999999" blue="0.047058823530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0y-ta-b5D">
+                            <rect key="frame" x="0.0" y="0.0" width="272" height="82"/>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.59607843140000005" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <state key="normal" title="点我刮开答案"/>
+                            <connections>
+                                <action selector="clickShowButton:" destination="-1" eventType="touchUpInside" id="XuO-uB-QcS"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="3p4-wk-sv6" firstAttribute="leading" secondItem="74L-u4-7eX" secondAttribute="leading" id="2bo-oW-8ZI"/>
+                        <constraint firstAttribute="trailing" secondItem="ZKl-Un-tmt" secondAttribute="trailing" id="7i1-6Z-DEP"/>
+                        <constraint firstItem="u0y-ta-b5D" firstAttribute="leading" secondItem="74L-u4-7eX" secondAttribute="leading" id="J6J-Ni-jaF"/>
+                        <constraint firstItem="u0y-ta-b5D" firstAttribute="top" secondItem="74L-u4-7eX" secondAttribute="top" id="K2b-LG-aGx"/>
+                        <constraint firstItem="ZKl-Un-tmt" firstAttribute="leading" secondItem="74L-u4-7eX" secondAttribute="leading" id="Nal-NS-iL0"/>
+                        <constraint firstItem="3p4-wk-sv6" firstAttribute="top" secondItem="74L-u4-7eX" secondAttribute="top" id="aKy-9E-gBe"/>
+                        <constraint firstAttribute="trailing" secondItem="3p4-wk-sv6" secondAttribute="trailing" id="b14-be-fMb"/>
+                        <constraint firstAttribute="bottom" secondItem="u0y-ta-b5D" secondAttribute="bottom" id="dbW-fW-YEQ"/>
+                        <constraint firstAttribute="width" constant="272" id="g8W-Im-1bp"/>
+                        <constraint firstItem="ZKl-Un-tmt" firstAttribute="top" secondItem="74L-u4-7eX" secondAttribute="top" id="gpl-Bd-v5D"/>
+                        <constraint firstAttribute="bottom" secondItem="3p4-wk-sv6" secondAttribute="bottom" id="jTM-QU-ola"/>
+                        <constraint firstAttribute="trailing" secondItem="u0y-ta-b5D" secondAttribute="trailing" id="ksp-ct-it8"/>
+                        <constraint firstAttribute="bottom" secondItem="ZKl-Un-tmt" secondAttribute="bottom" id="mhY-Mn-XgV"/>
+                        <constraint firstAttribute="height" constant="82" id="z3L-nX-EDc"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1V-m2-J0X">
+                    <rect key="frame" x="139" y="529" width="136" height="40"/>
+                    <color key="backgroundColor" red="0.26274509800000001" green="0.59607843140000005" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="myH-KM-uTN"/>
+                        <constraint firstAttribute="width" constant="136" id="vx6-DI-LHw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="再刮一次"/>
+                    <connections>
+                        <action selector="recoveryAction:" destination="-1" eventType="touchUpInside" id="Unc-kJ-rsw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="q1V-m2-J0X" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4VV-hq-VyQ"/>
+                <constraint firstItem="74L-u4-7eX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7k6-1a-hl2"/>
+                <constraint firstItem="q1V-m2-J0X" firstAttribute="top" secondItem="74L-u4-7eX" secondAttribute="bottom" constant="40" id="dyY-Dc-Uf1"/>
+                <constraint firstItem="74L-u4-7eX" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="g7f-EQ-NVQ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_scratch_normal.png" width="16" height="16"/>
+    </resources>
+</document>

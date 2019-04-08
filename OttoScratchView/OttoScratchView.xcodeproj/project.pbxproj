@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C8439092255F35E00B1936C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8439082255F35E00B1936C /* AppDelegate.m */; };
+		2C84390C2255F35E00B1936C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C84390B2255F35E00B1936C /* ViewController.m */; };
+		2C84390F2255F35E00B1936C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C84390D2255F35E00B1936C /* Main.storyboard */; };
+		2C8439112255F36000B1936C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8439102255F36000B1936C /* Assets.xcassets */; };
+		2C8439142255F36000B1936C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8439122255F36000B1936C /* LaunchScreen.storyboard */; };
+		2C8439172255F36000B1936C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8439162255F36000B1936C /* main.m */; };
+		2C8439202255F39400B1936C /* OttoScratchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C84391F2255F39400B1936C /* OttoScratchView.m */; };
+		2C84392B2255FEB100B1936C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8439292255FEB000B1936C /* MainViewController.m */; };
+		2C84392C2255FEB100B1936C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C84392A2255FEB000B1936C /* MainViewController.xib */; };
+		2CEFF76E225B243F00117CCA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEFF76D225B243F00117CCA /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C8439042255F35E00B1936C /* OttoScratchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OttoScratchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8439072255F35E00B1936C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C8439082255F35E00B1936C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C84390A2255F35E00B1936C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C84390B2255F35E00B1936C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C84390E2255F35E00B1936C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C8439102255F36000B1936C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C8439132255F36000B1936C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C8439152255F36000B1936C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8439162255F36000B1936C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C84391E2255F39400B1936C /* OttoScratchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OttoScratchView.h; sourceTree = "<group>"; };
+		2C84391F2255F39400B1936C /* OttoScratchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OttoScratchView.m; sourceTree = "<group>"; };
+		2C8439282255FEB000B1936C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2C8439292255FEB000B1936C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2C84392A2255FEB000B1936C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		2CEFF76C225B243F00117CCA /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2CEFF76D225B243F00117CCA /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C8439012255F35E00B1936C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C8438FB2255F35E00B1936C = {
+			isa = PBXGroup;
+			children = (
+				2C8439062255F35E00B1936C /* OttoScratchView */,
+				2C8439052255F35E00B1936C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C8439052255F35E00B1936C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C8439042255F35E00B1936C /* OttoScratchView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C8439062255F35E00B1936C /* OttoScratchView */ = {
+			isa = PBXGroup;
+			children = (
+				2C84391D2255F38200B1936C /* OttoScratchView */,
+				2C8439072255F35E00B1936C /* AppDelegate.h */,
+				2C8439082255F35E00B1936C /* AppDelegate.m */,
+				2CEFF76C225B243F00117CCA /* TableViewController.h */,
+				2CEFF76D225B243F00117CCA /* TableViewController.m */,
+				2C84390A2255F35E00B1936C /* ViewController.h */,
+				2C84390B2255F35E00B1936C /* ViewController.m */,
+				2C8439282255FEB000B1936C /* MainViewController.h */,
+				2C8439292255FEB000B1936C /* MainViewController.m */,
+				2C84392A2255FEB000B1936C /* MainViewController.xib */,
+				2C84390D2255F35E00B1936C /* Main.storyboard */,
+				2C8439102255F36000B1936C /* Assets.xcassets */,
+				2C8439122255F36000B1936C /* LaunchScreen.storyboard */,
+				2C8439152255F36000B1936C /* Info.plist */,
+				2C8439162255F36000B1936C /* main.m */,
+			);
+			path = OttoScratchView;
+			sourceTree = "<group>";
+		};
+		2C84391D2255F38200B1936C /* OttoScratchView */ = {
+			isa = PBXGroup;
+			children = (
+				2C84391E2255F39400B1936C /* OttoScratchView.h */,
+				2C84391F2255F39400B1936C /* OttoScratchView.m */,
+			);
+			path = OttoScratchView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C8439032255F35E00B1936C /* OttoScratchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84391A2255F36000B1936C /* Build configuration list for PBXNativeTarget "OttoScratchView" */;
+			buildPhases = (
+				2C8439002255F35E00B1936C /* Sources */,
+				2C8439012255F35E00B1936C /* Frameworks */,
+				2C8439022255F35E00B1936C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OttoScratchView;
+			productName = OttoScratchView;
+			productReference = 2C8439042255F35E00B1936C /* OttoScratchView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C8438FC2255F35E00B1936C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = otto;
+				TargetAttributes = {
+					2C8439032255F35E00B1936C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 2C8438FF2255F35E00B1936C /* Build configuration list for PBXProject "OttoScratchView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C8438FB2255F35E00B1936C;
+			productRefGroup = 2C8439052255F35E00B1936C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C8439032255F35E00B1936C /* OttoScratchView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C8439022255F35E00B1936C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8439142255F36000B1936C /* LaunchScreen.storyboard in Resources */,
+				2C84392C2255FEB100B1936C /* MainViewController.xib in Resources */,
+				2C8439112255F36000B1936C /* Assets.xcassets in Resources */,
+				2C84390F2255F35E00B1936C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C8439002255F35E00B1936C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84390C2255F35E00B1936C /* ViewController.m in Sources */,
+				2CEFF76E225B243F00117CCA /* TableViewController.m in Sources */,
+				2C8439202255F39400B1936C /* OttoScratchView.m in Sources */,
+				2C8439172255F36000B1936C /* main.m in Sources */,
+				2C84392B2255FEB100B1936C /* MainViewController.m in Sources */,
+				2C8439092255F35E00B1936C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C84390D2255F35E00B1936C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C84390E2255F35E00B1936C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8439122255F36000B1936C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8439132255F36000B1936C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C8439182255F36000B1936C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C8439192255F36000B1936C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C84391B2255F36000B1936C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7D6HATSF7M;
+				INFOPLIST_FILE = OttoScratchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = otto.OttoScratchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C84391C2255F36000B1936C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7D6HATSF7M;
+				INFOPLIST_FILE = OttoScratchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = otto.OttoScratchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C8438FF2255F35E00B1936C /* Build configuration list for PBXProject "OttoScratchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8439182255F36000B1936C /* Debug */,
+				2C8439192255F36000B1936C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C84391A2255F36000B1936C /* Build configuration list for PBXNativeTarget "OttoScratchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84391B2255F36000B1936C /* Debug */,
+				2C84391C2255F36000B1936C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C8438FC2255F35E00B1936C /* Project object */;
+}
